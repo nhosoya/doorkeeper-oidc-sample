@@ -2,12 +2,36 @@
 
 Doorkeeper::OpenidConnect.configure do
   issuer do |resource_owner, application|
-    'issuer string'
+    'http://localhost:3000/'
   end
 
   signing_key <<~KEY
     -----BEGIN RSA PRIVATE KEY-----
-    ....
+    MIIEpQIBAAKCAQEA3x9ZSZ0wgYQ7DKnloWck3oJKygmHgblATf9nVejpmPX267c2
+    bdc6+vpFoarLSYbcaJmEkZnlQN9MyFB+2hsbbY2fWsMSpbf3eP9sgdWDSsqGiIDp
+    UnOWAzjfeTd+R7n+N7JcR/BIBxNBeoRva9zlWcFfBsImTSR60fj1PP4ONawWt5zT
+    0VpeCQQUBxUodUSyEg3TSJHZypefsAd/sFvd/NiP+5gqR5DcH/cxNKxiqoNLHVGM
+    mmeJq+xdnhVNh8V9h6pXCYrr9LLUgTFJ03lPXgCarqcEQqmZssUOS5B9LRinwE7O
+    v+MbV8SaUZvYIUfYh5aXgjFAgE+Q5taBJwn5NQIDAQABAoIBAFurl5WlHX65A0HK
+    s+vCYuWAhpXHoILtx7vECYLEdOVBeTeTSKuMWFExblZjw63r2LapDEx9/DDRDczn
+    NZcKuBQksaoqp4iqsuRlnQEi5hRebTO8MyCLGMEuJrK42AtEIWxkvYFY+V7ezHI3
+    40dftGNSDWbLcc0UBdoq/ScYAmKOEzlgDqcKvlCjUfcxZDQhIIJu+Jc9dHJSjAAF
+    DgMbUzV+TPVnel7wL51A60zcmixoUWrkxb82wXh9sP9ed+rBCenR3vPPSX3PqmiK
+    qxqcWkgZ2LD9dFYU2Ploy0jx+KnKpLLKTrs2CEloqS9CH/GkyneooKG7IDg4ljxm
+    L4T5D0ECgYEA9Z5Uan5aOz7KTAZvAnDqg6+I8PxA497sIldH/S0E4BXfkLmuP/7N
+    Tdv0qYJuiUwXjKu4KBENIn3BdIfJPyNTMKWAK9musIjr2Sd60v0/duj/a/zE9Q36
+    vMfSGNL8rMkcDJnN66ldoJ4SoNtbwU8jYuuzfqAZYXF4Rkf+ipeyMskCgYEA6I2a
+    3ExGYjrpm6Kuv8Iqyh9c3dPa9L5nkJDGhq0CFiOAlt4Ulk9H4Fvs/+5BDYSA3w/l
+    3YK2S+HBBTgmJZ3+/I479Z/gNoEyPmomit3WT+fMJE3+1erzScbSlq7t9949xB1A
+    qJ8F/PIpNl4z7VUJBQQxgzsphI1qrEqkDYAHvQ0CgYEAlmrTGbCtg5DNhMd/3kfW
+    ZrTuMV7aQnK3u8Ql8xdJ4A2lL1V3L/vUMTVd3R1iojR2S5CyI99lYtUOz1WE2mTA
+    wo7oMnKKN9RyUzeJUYMEBcdk/PX8jHJ2NnxM3yT+1rYGtnTOld7P1thXYilURMs5
+    SZA9CXP0dydtV+UpLij+WXkCgYEAy3scBaa37zudLJEsVp2O00yd9XtqGrx/4f7L
+    twuqx7RIz7mCSgMU4TuOJGJUiX9nQ8alWy0EVWEzg12eA0w70MCjtkgt54Mkc3hu
+    QRPachBgj2Ovl339YpCVs0Nc9YWAhhkSeniqxKkfZnMG/KNrQPhqWmlp6pHSxO6K
+    nUVpgAECgYEAnKWgIGlpX6BRAAvKfr1cNAAVY+qAYX1vbMgsTnya1k4Y7sqydEFS
+    gMGipMv+BFw3oamkvB1v41oP4jPAym5u+XPvWhb6SUToldj1WUwRcLlzE710ogJy
+    dWJC0Ieo7QZFJ9L/y8PFsKxCNRT7wRwLVCO+oEmxtIGLNM+Z53X+YMs=
     -----END RSA PRIVATE KEY-----
   KEY
 
